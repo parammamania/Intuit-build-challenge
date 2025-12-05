@@ -61,17 +61,23 @@ These fields are parsed into an immutable SalesRecord using a frozen dataclass.
 ## Quick start
 
 **Clone the repository:**
+```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>/assignment-2
+```
 
 **Run the Analyzer:**
+```bash
 python3 sales_analyzer.py
+```
 
 **Running Python Unit Tests:**
+```bash
 python3 -m unittest test_sales_analyzer -v
 - Run all tests: python3 -m unittest test_sales_analyzer -v
 - Run a specific test class: python3 -m unittest test_sales_analyzer.TestSalesAnalyzer -v
 - Run a single test: python3 -m unittest test_sales_analyzer.TestSalesAnalyzer.test_calculate_total_revenue
+```
 
 ## Python Test Cases
 

@@ -33,16 +33,22 @@ This project implements the classic Producer-Consumer pattern demonstrating thre
 ## Quick start
 
 **Clone the repository:**
+```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>/assignment-1
+```
 
 **Run the Producer–Consumer Simulation:**
+```bash
 python3 producer_consumer.py
+```
 
 **Running Python Unit Tests:**
+```bash
 - Run all tests: python3 -m unittest discover -v
 - Run a specific test class: python3 -m unittest test_producer_consumer.TestProducerConsumer
 - Run a single test: python3 -m unittest test_producer_consumer.TestProducerConsumer.test_basic_producer_consumer
+```
 
 ## Python Implementation
 
